@@ -7,25 +7,21 @@
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col">
-                        <h1>
-                            Hello, world!
-                        </h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut
-                            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                            dolores
-                            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-                            amet.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut
-                            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                            dolores
-                            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-                            amet.
-                        </p>
+                        <?php if ( have_posts() ) : ?>
+                            <?php while ( have_posts() ) : the_post();  ?>
+                                <h2><?php the_title() ?></h2>
+                                <?php the_excerpt() ?>
+                                <a href="<?php the_permalink() ?>" class="btn btn-outline-dark">More...</a>
+                            <?php endwhile; ?>
+
+                            <div class="mt-5 mb-5">
+                                <a href="<?php next_posts_link() ?>" class="btn btn-outline-dark float-end">Newer Posts</a>
+                                <a href="<?php previous_posts_link() ?>" class="btn btn-outline-dark">Older Posts</a>
+                            </div>
+
+                        <?php else : ?>
+                            <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
