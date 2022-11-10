@@ -15,8 +15,13 @@ Theme Name: BJJ Aachen
     url('./fonts/special-elite-v18-latin-regular.svg#SpecialElite') format('svg'); /* Legacy iOS */
 }
 
-h1, h2, h3, h4, h5, h6, nav {
+h1, h2, h3, h4, h5, h6, nav, .btn {
     font-family: 'Special Elite', "Courier New", serif;
+}
+
+.btn{
+    padding-top: 0.7rem;
+    padding-bottom: 0.3rem;
 }
 
 header p, h5 {

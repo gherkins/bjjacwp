@@ -4,7 +4,9 @@
             &nbsp;
         </p>
         <div class="logo bg-black p-2 pt-4">
-            <img src="<?php bloginfo('template_directory'); ?>/images/bjj-aachen.svg" alt="" class="img-fluid">
+            <a href="<?php echo get_home_url(); ?>">
+                <img src="<?php bloginfo('template_directory'); ?>/images/bjj-aachen.svg" alt="" class="img-fluid">
+            </a>
         </div>
         <h5 class="text-end pt-2 pe-4 text-uppercase"><?php echo bloginfo( 'description' ); ?></h5>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0">
