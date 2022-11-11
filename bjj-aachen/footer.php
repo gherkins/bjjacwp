@@ -5,7 +5,7 @@
                 <h6>
                     Undefeated
                 </h6>
-                <img src="<?php bloginfo('template_directory'); ?>/images/no-competition-team.png" alt="" style="max-width: 75%">
+                <img src="<?php bloginfo('template_directory'); ?>/images/no-competition-team.png" alt="" style="max-width: 200px">
             </div>
             <div class="col-lg-4 mb-5 text-light">
                 <h6>
