@@ -27,7 +27,7 @@
                 </h6>
                 <ul class="list-unstyled">
                     <li>
-                        <a href="https://www.bjjglobetrotters.com/" target="_blank">^
+                        <a href="https://www.bjjglobetrotters.com/" target="_blank">
                             <img src="<?php bloginfo('template_directory'); ?>/images/bjj-globetrotters.png" alt="" style="max-width: 200px">
                         </a>
                         <p>
