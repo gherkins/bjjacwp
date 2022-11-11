@@ -28,7 +28,7 @@
                 <ul class="list-unstyled">
                     <li>
                         <a href="https://www.bjjglobetrotters.com/" target="_blank">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/bjj-globetrotters.png" alt="" style="max-width: 200px">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/bjj-globetrotters.png" alt="BJJ Globetrotters" style="max-width: 200px">
                         </a>
                         <p>
                             BJJ Globetrotters Member 🤙
