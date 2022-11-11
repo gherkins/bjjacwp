@@ -16,3 +16,4 @@ jobs:
                     password: ${{ secrets.FTP_PASSWORD }}
                     local-dir: ./bjj-aachen/
                     server-dir: /web/wp-content/themes/bjj-aachen/
+
