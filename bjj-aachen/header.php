@@ -20,15 +20,17 @@
                     <span class="navbar-toggler-icon text-white"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="nav-primary">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <?php foreach (bjjac_get_menu_items('primary') as $menuItem): ?>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="<?php echo $menuItem->url; ?>">
-                                    <?php echo $menuItem->title; ?>
-                                </a>
-                            </li>
-                        <?php endforeach; ?>
-                    </ul>
+                    <?php
+                    wp_nav_menu([
+                        'theme_location' => 'primary',
+                        'container' => false,
+                        'menu_class' => '',
+                        'fallback_cb' => '__return_false',
+                        'items_wrap' => '<ul id="%1$s" class="navbar-nav me-auto mb-2 mb-lg-0 %2$s">%3$s</ul>',
+                        'depth' => 2,
+                        'walker' => new bootstrap_5_wp_nav_menu_walker(),
+                    ]);
+                    ?>
                 </div>
             </div>
         </nav>
