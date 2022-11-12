@@ -2,15 +2,9 @@
     <div class="container bg-black">
         <div class="row pt-5">
             <div class="col-lg-4 mb-5 text-light">
-                <h6>
-                    Undefeated
-                </h6>
-                <img src="<?php bloginfo('template_directory'); ?>/images/no-competition-team.png" alt="" style="max-width: 200px">
+                <img src="<?php bloginfo('template_directory'); ?>/images/turtle-riders.png" alt="" style="max-width: 200px">
             </div>
             <div class="col-lg-4 mb-5 text-light">
-                <h6>
-                    Unsociable
-                </h6>
                 <ul class="list-unstyled">
                     <?php foreach (bjjac_get_menu_items('footer') as $menuItem): ?>
                         <li>
@@ -22,9 +16,6 @@
                 </ul>
             </div>
             <div class="col-lg-4 mb-5 text-light">
-                <h6>
-                    Unaffiliated
-                </h6>
                 <ul class="list-unstyled">
                     <li>
                         <a href="https://www.bjjglobetrotters.com/" target="_blank">
