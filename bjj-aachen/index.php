@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html>
     <?php include 'head.php'; ?>
     <body>
         <?php get_header() ?>
