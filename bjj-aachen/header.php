@@ -3,7 +3,7 @@
         <p class="">
             &nbsp;
         </p>
-        <div class="logo bg-black p-2 ps-4 pe-4 pt-3">
+        <div class="logo bg-black p-2 ps-2 pe-2 pt-3">
             <a href="<?php echo get_home_url(); ?>">
                 <img src="<?php bloginfo('template_directory'); ?>/images/bjj-aachen.svg" alt="" class="img-fluid">
             </a>
