@@ -2,7 +2,7 @@
     <div class="container bg-black">
         <div class="row pt-5">
             <div class="col-lg-4 mb-5 text-light">
-                <img src="<?php bloginfo('template_directory'); ?>/images/turtle-riders.png" alt="" style="max-width: 200px">
+                <img src="<?php bloginfo('template_directory'); ?>/images/turtle-riders.png" alt="Brazilian Jiu Jitsu Aachen - Turtle Riders" style="max-width: 200px">
             </div>
             <div class="col-lg-4 mb-5 text-light">
                 <ul class="list-unstyled">
