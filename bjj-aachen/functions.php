@@ -146,3 +146,11 @@ remove_action('wp_print_styles', 'print_emoji_styles');
 
 remove_action('admin_print_scripts', 'print_emoji_detection_script');
 remove_action('admin_print_styles', 'print_emoji_styles');
+
+add_action( 'admin_init', function() {
+    if ( class_exists( 'Yoast_Notification_Center' ) ) {
+        $yoast_nc = Yoast_Notification_Center::get();
+        remove_action( 'admin_notices', array( $yoast_nc, 'display_notifications' ) );
+        remove_action( 'all_admin_notices', array( $yoast_nc, 'display_notifications' ) );
+    }
+});
