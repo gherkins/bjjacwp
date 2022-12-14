@@ -26,10 +26,10 @@
                         </p>
                     </li>
                     <li>
-                        <a href="http://psv-aachen-jujutsu.de/" target="_blank" rel="noopener">
+                        <a href="https://www.psv-aachen.de/" target="_blank" rel="noopener">
                             <img src="<?php bloginfo('template_directory'); ?>/images/psv-aachen.png" alt="PSV Aachen" style="max-width: 95px; display: inline-block" class="me-3">
                         </a>
-                        <a href="https://www.psv-aachen.de/" target="_blank" rel="noopener">
+                        <a href="http://psv-aachen-jujutsu.de/" target="_blank" rel="noopener">
                             <img src="<?php bloginfo('template_directory'); ?>/images/psv-aachen-ju-jutsu.png" alt="PSV Aachen Ju Jutsu" style="max-width: 85px; display: inline-block">
                         </a>
                         <p>
