@@ -18,11 +18,22 @@
             <div class="col-lg-4 mb-5 text-light">
                 <ul class="list-unstyled">
                     <li>
-                        <a href="https://www.bjjglobetrotters.com/" target="_blank">
+                        <a href="https://www.bjjglobetrotters.com/" target="_blank" rel="noopener">
                             <img src="<?php bloginfo('template_directory'); ?>/images/bjj-globetrotters.png" alt="BJJ Globetrotters" style="max-width: 200px">
                         </a>
                         <p>
                             BJJ Globetrotters Member 🤙
+                        </p>
+                    </li>
+                    <li>
+                        <a href="http://psv-aachen-jujutsu.de/" target="_blank" rel="noopener">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/psv-aachen.png" alt="PSV Aachen" style="max-width: 95px; display: inline-block" class="me-3">
+                        </a>
+                        <a href="https://www.psv-aachen.de/" target="_blank" rel="noopener">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/psv-aachen-ju-jutsu.png" alt="PSV Aachen Ju Jutsu" style="max-width: 85px; display: inline-block">
+                        </a>
+                        <p>
+                            A department of PSV Aachen JJ
                         </p>
                     </li>
                 </ul>
